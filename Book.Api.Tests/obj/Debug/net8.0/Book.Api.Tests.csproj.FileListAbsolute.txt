@@ -125,3 +125,4 @@
 /Users/alphonso/localRepo/dotNet/workshop/Book.Api.Tests/bin/Debug/net8.0/Castle.Core.dll
 /Users/alphonso/localRepo/dotNet/workshop/Book.Api.Tests/bin/Debug/net8.0/Moq.dll
 /Users/alphonso/localRepo/dotNet/workshop/Book.Api.Tests/bin/Debug/net8.0/Moq.EntityFrameworkCore.dll
+/Users/alphonso/localRepo/dotNet/workshop/Book.Api.Tests/obj/Debug/net8.0/Book.Api.Tests.sourcelink.json

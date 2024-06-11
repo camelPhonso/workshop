@@ -1,5 +1,6 @@
 using Book.Api.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.OpenApi.Any;
 using BookClass = Book.Api.Entities.Book;
 
 namespace Book.Api.Controllers
@@ -23,13 +24,14 @@ namespace Book.Api.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetSingleBook(string name)
+        public BookClass GetSingleBook(string name)
         {
             var targetBook = _context.Books.FirstOrDefault(book => book.Name == name);
 
-            if(targetBook == null) return NotFound("Book not found");
+            if (targetBook == null)
+                throw new Exception("book not found");
 
-            return Ok(targetBook);
+            return targetBook;
         }
     }
 }

@@ -39,3 +39,4 @@
 /Users/alphonso/localRepo/dotNet/workshop/Book.Api/bin/Debug/net8.0/System.Security.Permissions.dll
 /Users/alphonso/localRepo/dotNet/workshop/Book.Api/obj/Debug/net8.0/Book.Api.RazorAssemblyInfo.cache
 /Users/alphonso/localRepo/dotNet/workshop/Book.Api/obj/Debug/net8.0/Book.Api.RazorAssemblyInfo.cs
+/Users/alphonso/localRepo/dotNet/workshop/Book.Api/obj/Debug/net8.0/Book.Api.sourcelink.json
